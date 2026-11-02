@@ -111,10 +111,17 @@ Score target markets (1-10) on:
 - Entering a market because a competitor did, without independent analysis of fit and attractiveness
 - Building the financial model on revenue assumptions from the home market without local validation
 - Choosing an entry mode based on what is comfortable rather than what the market demands
-- Launching simultaneously in five markets because the board wants to "move fast" — this guarantees failure in all five
+- Launching simultaneously in five markets because the board wants to "move fast" — this creates substantial execution and coordination risk in all five
 - Treating market entry as a project with an end date rather than a strategic commitment requiring sustained investment
 ## Evidence, version and decision checks
 
 - Identify the decision-maker, the decision horizon and the counterfactual or status quo.
 - Use sourced market and competitor evidence; label market size, growth and share estimates as assumptions until verified.
 - Where numbers are available, show a sensitivity range for revenue, cost, implementation timing and downside exposure.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Sector / financial analysis):** Identify applicable jurisdiction, source dates, sector-specific standards and assumptions.
+- **Independent validation:** Use verifiable baselines and sensitivity ranges rather than universal operational benchmarks.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

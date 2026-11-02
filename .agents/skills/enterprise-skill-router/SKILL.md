@@ -59,3 +59,23 @@ Before recommending or claiming to load a skill, confirm its local file exists. 
 - Codex: `$enterprise-skill-router Compare options for modernizing order-to-cash operations.`
 - Claude Code: `/enterprise-skill-router Build a cross-functional operations improvement roadmap.`
 - Automatic: ask a normal question in this repository; root instructions require routing by default.
+
+## Compact session catalog
+
+For a new conversation, the user may explicitly invoke `enterprise-context-init`. This loads `SKILL_INDEX.md` and this routing policy, not the full specialist library. **Do not require it**: the default router remains active under root instructions. For each real question, select from the verified index and open only the applicable specialist `SKILL.md` file(s). Check file existence and account for user additions/removals. Do not claim persistent memory or automatic preloading of all Skills.
+
+## Conversation isolation during routing
+
+- A new, unrelated chat starts with **no implicit preferences or decisions** from previous threads. Choose specialists and recommendations from the current question, current chat and pertinent evidence, not prior-session topic frequency.
+- Do not infer that the user favors an asset, blockchain, vendor, methodology, strategy, or prior allocation simply because it was discussed in another conversation.
+- Do not proactively consult past chats, stored summaries, or user-specific project notes when they are irrelevant. Explicit requests to resume or reuse a past decision are exceptions; retrieve only authorized relevant context or ask for a recap.
+- A repository Skill is a **method**, not a user preference. Catalog initialization discovers methods; it does not merge old conversations, reset memory, or override the root `AGENTS.md` isolation rule.
+- If a prior-chat detail is surfaced through the client, do not use it as an unconfirmed premise for an unrelated decision. Separately supported recommendations remain valid even when they happen to overlap an earlier topic.
+
+## Across conversations
+
+- Treat each new thread as a separate conversation. Use this router by default for a relevant question; **do not require** `enterprise-context-init` first.
+- If the user invokes `enterprise-context-init`, summarize only the compact catalog. Full specialist instructions are loaded when relevant to the task.
+- Previous chat decisions and state do not carry over automatically. Request a brief recap when they are essential.
+- Do not treat Skills located in other repository folders as available unless explicitly included in the current working environment.
+

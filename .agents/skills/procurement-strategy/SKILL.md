@@ -80,3 +80,10 @@ profitability.
 - Separate demand assumptions, lead times, variability, service levels and inventory/capacity constraints.
 - Compare landed cost, reliability, emissions, stockout exposure and working capital instead of optimizing one KPI in isolation.
 - Validate formulas against their assumptions (independence, distributions, stable lead time) and use sensitivity or scenarios.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Supply chain and inventory):** Reconcile quantities, lead times, units, service levels, stockout cost and supplier constraints.
+- **Independent validation:** Stress-test demand variation, supplier disruption and cash tied up in inventory.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

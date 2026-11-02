@@ -169,3 +169,15 @@ Core principles:
 - Confirm platform, vendor edition, deployment model and API/documentation version before naming commands or features.
 - State integration dependencies, ownership, recovery requirements and data-governance/security boundaries.
 - Distinguish conceptual patterns from validated production designs; require tests and operational readiness before cutover.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Enterprise technology):** Verify platform and API versions, permissions, privacy controls, migration rollback and recovery objectives.
+- **Independent validation:** Use staged acceptance testing, observability and explicit change approval before production rollout.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.
+
+
+## Migration correctness gate
+
+Require source-to-target reconciliation by stable keys, delete/update semantics, idempotent retry and ordered replay, CDC lag/retention monitoring, a tested cutover freeze and a time-bounded rollback/recovery plan. Dual-write is not automatically consistent: detect partial writes and define a failure and retry strategy.

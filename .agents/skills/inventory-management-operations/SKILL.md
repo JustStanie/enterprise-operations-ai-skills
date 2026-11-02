@@ -481,3 +481,10 @@ The most dangerous approach to inventory management is uniformity — applying t
 - Establish the process boundary, demand volume, measurement baseline and constraints before claiming efficiency gains.
 - Make quality, safety, capacity, labor, variability and customer-impact tradeoffs explicit.
 - Pilot proposed improvements and compare before/after results; do not invent benefits or treat targets as validated forecasts.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Supply chain and inventory):** Reconcile quantities, lead times, units, service levels, stockout cost and supplier constraints.
+- **Independent validation:** Stress-test demand variation, supplier disruption and cash tied up in inventory.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

@@ -508,7 +508,7 @@ Process redesign is not about documenting what exists — it is about fundamenta
 
 The most important distinction in process redesign is between automating existing processes and redesigning first then automating. Most organizations default to the former because it feels safer and more incremental. But automating a fifteen-step process that should be five steps wastes 67% of the automation investment on steps that should not exist. The organizations that achieve transformational results redesign first — questioning every step, every handoff, every approval — and then apply technology to the streamlined result. The difference in outcomes between these two approaches is enormous.
 
-Eighty percent of process redesign success depends on people, policy, and organizational change — not technology. The best-designed process will fail if the people who execute it are not trained, the policies that govern it have not been updated, and the organizational incentives still reward old behaviors. Technology is the enabler that makes redesigned processes efficient, but it is never the driver of process change. Treating BPM tools or automation platforms as solutions rather than enablers is the most common and most expensive mistake in process transformation.
+Process redesign outcomes depend on technology, people, policy, incentives and organizational change; avoid unsupported fixed percentage attributions. The best-designed process will fail if the people who execute it are not trained, the policies that govern it have not been updated, and the organizational incentives still reward old behaviors. Technology is the enabler that makes redesigned processes efficient, but it is never the driver of process change. Treating BPM tools or automation platforms as solutions rather than enablers is the most common and most expensive mistake in process transformation.
 
 ## Anti-Patterns
 
@@ -539,3 +539,10 @@ Eighty percent of process redesign success depends on people, policy, and organi
 - Establish the process boundary, demand volume, measurement baseline and constraints before claiming efficiency gains.
 - Make quality, safety, capacity, labor, variability and customer-impact tradeoffs explicit.
 - Pilot proposed improvements and compare before/after results; do not invent benefits or treat targets as validated forecasts.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Operations and strategy):** Define baseline, owner, metric, counterfactual, adoption constraints and measurement period.
+- **Independent validation:** Treat improvement targets as hypotheses until validated by actual operating data.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

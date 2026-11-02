@@ -510,3 +510,10 @@ Manufacturing improvement follows a consistent hierarchy: first stabilize, then 
 - Establish the process boundary, demand volume, measurement baseline and constraints before claiming efficiency gains.
 - Make quality, safety, capacity, labor, variability and customer-impact tradeoffs explicit.
 - Pilot proposed improvements and compare before/after results; do not invent benefits or treat targets as validated forecasts.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Enterprise advisory):** State decision owner, scope, constraints, dependencies and evidence sources.
+- **Independent validation:** Do not represent illustrative frameworks as binding standards or guarantees.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

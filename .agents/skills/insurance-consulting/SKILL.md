@@ -299,3 +299,10 @@ consumer data use (social media, IoT, telematics), proxy discrimination testing
 - State the jurisdiction, sector, applicable regulator and effective date when compliance matters.
 - Keep regulatory obligations, industry benchmarks and consulting heuristics separate.
 - Flag decisions requiring accredited legal, clinical, financial, engineering or other professional review.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Sector / financial analysis):** Identify applicable jurisdiction, source dates, sector-specific standards and assumptions.
+- **Independent validation:** Use verifiable baselines and sensitivity ranges rather than universal operational benchmarks.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

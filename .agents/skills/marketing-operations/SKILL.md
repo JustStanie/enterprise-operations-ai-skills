@@ -452,3 +452,10 @@ MEASUREMENT:
 - Define service scope, exclusions, service hours, priority definitions, contractual SLAs and ownership before committing to targets.
 - Treat industry staffing ratios, SLA percentages and cost targets as examples requiring baseline measurement.
 - Include handoffs, escalation, measurement sources, incident recovery and continuity plans in operational recommendations.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Enterprise advisory):** State decision owner, scope, constraints, dependencies and evidence sources.
+- **Independent validation:** Do not represent illustrative frameworks as binding standards or guarantees.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

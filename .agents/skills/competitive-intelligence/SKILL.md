@@ -114,3 +114,10 @@ For each critical capability, assess competitors on a 1-5 scale:
 - Identify the decision-maker, the decision horizon and the counterfactual or status quo.
 - Use sourced market and competitor evidence; label market size, growth and share estimates as assumptions until verified.
 - Where numbers are available, show a sensitivity range for revenue, cost, implementation timing and downside exposure.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Operations and strategy):** Define baseline, owner, metric, counterfactual, adoption constraints and measurement period.
+- **Independent validation:** Treat improvement targets as hypotheses until validated by actual operating data.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

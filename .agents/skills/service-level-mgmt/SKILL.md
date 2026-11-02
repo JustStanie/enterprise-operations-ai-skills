@@ -637,3 +637,10 @@ WARNING SIGNS OF WEAK SPONSORSHIP:
 - Define service scope, exclusions, service hours, priority definitions, contractual SLAs and ownership before committing to targets.
 - Treat industry staffing ratios, SLA percentages and cost targets as examples requiring baseline measurement.
 - Include handoffs, escalation, measurement sources, incident recovery and continuity plans in operational recommendations.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Operations and strategy):** Define baseline, owner, metric, counterfactual, adoption constraints and measurement period.
+- **Independent validation:** Treat improvement targets as hypotheses until validated by actual operating data.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

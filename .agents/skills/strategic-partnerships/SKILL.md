@@ -110,3 +110,10 @@ Design the economic model to answer:
 - Identify the decision-maker, the decision horizon and the counterfactual or status quo.
 - Use sourced market and competitor evidence; label market size, growth and share estimates as assumptions until verified.
 - Where numbers are available, show a sensitivity range for revenue, cost, implementation timing and downside exposure.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Enterprise advisory):** State decision owner, scope, constraints, dependencies and evidence sources.
+- **Independent validation:** Do not represent illustrative frameworks as binding standards or guarantees.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "description": "Historical static review evidence. Edit entries only after real human/expert review. Never auto-approve a changed Skill.",
+  "source": "docs/audit/HISTORICAL_TECHNICAL_AUDIT.md",
+  "original_review_date": "2026-10-31",
+  "reviews": {
+    "ai-analytics-enterprise": {
+      "reviewed_sha256": "d92d57cca0617861c526cba5f1790aa46931195329dc41c3f971fb3095d36b0b",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `third-party-api (5; L195, L434)`, `legal-or-compliance (3; L119, L226)`, `live-data (1; L151)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `3876368a45bf` → `d92d57cca061` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "application-support": {
+      "reviewed_sha256": "23a284109a37419b1dffadceb4b4aa1662b80641e200fcb7e403813e1af0a7d6",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `unqualified-performance (1; L17)`, `third-party-api (3; L329, L560)`, `legal-or-compliance (1; L230)`, `live-data (1; L473)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `b25b803fcc4f` → `23a284109a37` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "automation-robotics": {
+      "reviewed_sha256": "0f437b52e216602648e426c6aa0b1e35507b6315cbc814cab4aed8cc6379dd32",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `absolute-percent-benchmark (1; L441)`, `third-party-api (5; L447, L462)`, `legal-or-compliance (11; L157, L173)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `426bff81922a` → `0f437b52e216` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "blue-ocean-strategy": {
+      "reviewed_sha256": "c51828be71f32a85c986b92add0ba46f474b065280d08efcb6ae2316688af615",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `third-party-api (1; L121)`, `legal-or-compliance (1; L85)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `72aa145b6837` → `c51828be71f3` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "claims-processing": {
+      "reviewed_sha256": "109aa664606963f1759f1a0d477486ab8b7769e6707709acfc1d189de719874e",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Sector / financial analysis.\n- **Review signals:** `absolute-percent-benchmark (2; L343, L347)`, `third-party-api (2; L287, L390)`, `legal-or-compliance (5; L88, L175)`, `live-data (3; L141, L230)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `1a4c645f9f1a` → `109aa6646069` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "cloud-migration": {
+      "reviewed_sha256": "6b9b63f86a53ed086e549cb485b769e1d4bc449d6ee1e9ebcc499f12c54cb7ec",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `absolute-percent-benchmark (1; L144)`, `third-party-api (6; L23, L315)`, `legal-or-compliance (13; L90, L178)`, `live-data (1; L310)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `fe9f1f883489` → `6b9b63f86a53` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "competitive-intelligence": {
+      "reviewed_sha256": "1bb0029ffaae83658ff95351503b6671848922d160ceef66473e21b74cabf773",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `third-party-api (2; L56, L112)`, `legal-or-compliance (3; L5, L53)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `95e795cb12c7` → `1bb0029ffaae` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "corporate-restructuring": {
+      "reviewed_sha256": "c33200ea0c1306f7143a0c051e95542801c575f6f3dff856c1d273c2c5890d57",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise advisory.\n- **Review signals:** `third-party-api (1; L109)`, `legal-or-compliance (1; L6)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `bf744b873b65` → `c33200ea0c13` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "customer-operations": {
+      "reviewed_sha256": "350219a7ea0eb531d3aa1088f916eeaf50c4eeb1c836f2b37db7f04e46183b28",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `absolute-percent-benchmark (29; L164, L252)`, `third-party-api (2; L431, L647)`, `legal-or-compliance (6; L211, L220)`, `live-data (3; L180, L181)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `a9f247995c4a` → `350219a7ea0e` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "customer-support-ops": {
+      "reviewed_sha256": "a69b31556276ed05e9536b2748d284b98ea02556c392cc180b3d40487e7a14d6",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `absolute-percent-benchmark (3; L137, L138)`, `third-party-api (1; L398)`, `legal-or-compliance (4; L185, L198)`, `live-data (5; L52, L120)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `cf43f2f8c1e9` → `a69b31556276` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "cybersecurity-architecture": {
+      "reviewed_sha256": "9be4cd3c10640ec4c3687f2c5926790f827b2f7c4dc01dd0236fcab4513f85d3",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `third-party-api (9; L131, L229)`, `legal-or-compliance (19; L27, L76)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `3b750f20d75f` → `9be4cd3c1064` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "data-migration": {
+      "reviewed_sha256": "b9ecca2dcfba69a989e06b3ea1ddd4b71871f18e82946c997bce634c3c3d7017",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `third-party-api (7; L134, L134)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `7616dd4f238d` → `b9ecca2dcfba` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "data-platforms": {
+      "reviewed_sha256": "098bc4dad37098e6d1eb879dbd4640c6a5c34db5ce34aa8d85ac627e3dfbf333",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `third-party-api (5; L141, L419)`, `legal-or-compliance (1; L200)`, `live-data (6; L257, L264)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `01a25b7874bb` → `098bc4dad370` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "demand-forecasting": {
+      "reviewed_sha256": "7faeb0ac9e674f98f4e0d358bcc69351f4a12f42d7ab3070e3c9263029537963",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L74)`, `live-data (1; L26)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `1c022d233176` → `7faeb0ac9e67` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "digital-product-consulting": {
+      "reviewed_sha256": "b4965d71d0ab3ddb96a87c4d29fef3a96e44047e067e51440e451d340fd0c175",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `third-party-api (6; L129, L410)`, `legal-or-compliance (11; L49, L102)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `21512156f5d1` → `b4965d71d0ab` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "energy-consulting": {
+      "reviewed_sha256": "526766daa592364d169409f870911f746a6c829a60195ff34af17a3131a6adb0",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Sector / financial analysis.\n- **Review signals:** `third-party-api (1; L308)`, `financial-assumptions (1; L208)`, `legal-or-compliance (15; L5, L15)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `38f29109fbb9` → `526766daa592` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "enterprise-architecture": {
+      "reviewed_sha256": "b965692bfaf62b87853a27e25c3b6e81c25d356f8e36d35722dd683b3e9c3113",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `credential-security (2; L203, L216)`, `third-party-api (28; L33, L61)`, `legal-or-compliance (3; L42, L153)`, `live-data (1; L260)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `d39d62c9318b` → `b965692bfaf6` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "erp-implementation": {
+      "reviewed_sha256": "477108e85402b7931060f1daae4a8d7d958be94e498709cde20f91103a74672d",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `absolute-percent-benchmark (3; L135, L136)`, `third-party-api (5; L17, L298)`, `legal-or-compliance (1; L37)`, `live-data (1; L51)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `952dcb952e9e` → `477108e85402` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "financial-services-consulting": {
+      "reviewed_sha256": "873ad6e297184e3f8bc1fdbb5b4e95252c501644e1b520e067de8a772dd9d84a",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Sector / financial analysis.\n- **Review signals:** `third-party-api (4; L94, L138)`, `legal-or-compliance (17; L15, L23)`, `live-data (4; L48, L137)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `274c52304101` → `873ad6e29718` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "growth-strategy": {
+      "reviewed_sha256": "224a47ab5af2be9fab2c6a3822785b4d308fe9a8cf95e44255acfd69b1dfa490",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `third-party-api (1; L113)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `7f1e18fa22df` → `224a47ab5af2` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "industrials-consulting": {
+      "reviewed_sha256": "589d3b4da7a6d9b264dbb872b127d095386f740c47b29b2d3266624c46d5a6e8",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Sector / financial analysis.\n- **Review signals:** `absolute-percent-benchmark (8; L53, L55)`, `third-party-api (1; L304)`, `financial-assumptions (2; L60, L61)`, `legal-or-compliance (7; L219, L222)`, `live-data (1; L72)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `5701fb6394ee` → `589d3b4da7a6` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "innovation-strategy": {
+      "reviewed_sha256": "261e2ad3bd307a3e2f7c7425f9384ad7293566aa204f613496bb5e443def02a7",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `unqualified-performance (1; L93)`, `third-party-api (1; L112)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `f28b34189f04` → `261e2ad3bd30` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "insurance-consulting": {
+      "reviewed_sha256": "ae8fc3e5f0b901a7c897022be6fb323454a43d5bb76e959850d549067eed730d",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Sector / financial analysis.\n- **Review signals:** `absolute-percent-benchmark (2; L62, L132)`, `unqualified-performance (1; L289)`, `third-party-api (6; L157, L179)`, `legal-or-compliance (16; L16, L16)`, `live-data (2; L102, L107)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `2f5b23d9cde6` → `ae8fc3e5f0b9` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "inventory-management-operations": {
+      "reviewed_sha256": "2f80cfe7bf13c95f40703e7a88382898063ef68417f163fbcdacb77f0d43f4e4",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `absolute-percent-benchmark (4; L363, L451)`, `third-party-api (1; L479)`, `legal-or-compliance (1; L384)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `19a23ddde79c` → `2f80cfe7bf13` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "inventory-management-supply-chain": {
+      "reviewed_sha256": "730c3f99f025d932b459a6f21c160a15023b889eb81d82355c9339260d3c4462",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L77)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `fbb01b290c7f` → `730c3f99f025` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "it-modernization": {
+      "reviewed_sha256": "206ac3968aeff239d1047fbddd86a58741cda38cbc1166aa14d3719e6a5398a3",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `third-party-api (7; L112, L155)`, `financial-assumptions (1; L276)`, `legal-or-compliance (3; L54, L257)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `eb3f3c02f8cd` → `206ac3968aef` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "it-service-desk": {
+      "reviewed_sha256": "6f4e0f6f42e83cf1906adde2440105e3489b2b398b5495ad76d10ff706702868",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `absolute-percent-benchmark (2; L59, L114)`, `third-party-api (2; L262, L270)`, `legal-or-compliance (4; L187, L248)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `763133e75f4a` → `6f4e0f6f42e8` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "lean-six-sigma": {
+      "reviewed_sha256": "02930c3521824a51e70ff62ba3f923f7248a50f4610c1c0c7967b6a97ea510f2",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `third-party-api (1; L553)`, `legal-or-compliance (1; L510)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `d795738f7b00` → `02930c352182` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "logistics-consulting": {
+      "reviewed_sha256": "9b7e28b257d0ab1f48f11626043e6ca440f68f158102791cf3bc704f271e7126",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `absolute-percent-benchmark (5; L95, L104)`, `third-party-api (1; L446)`, `live-data (3; L131, L268)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `60693e0f377f` → `9b7e28b257d0` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "logistics-optimization": {
+      "reviewed_sha256": "30e0ba9dc9bbce3a21b4d10070e2e86446b77316a1f9bd71d38f090501a9f304",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L76)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `50f2c6793123` → `30e0ba9dc9bb` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "logistics-planning": {
+      "reviewed_sha256": "8f192fb564da323b525d0ee924310004798bfed20ab3dc6d156219bcbcaee4e6",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L118)`, `legal-or-compliance (1; L108)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `6880d997e363` → `8f192fb564da` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "managed-finance-ops": {
+      "reviewed_sha256": "30940a6d2128c67a9b489ca3b6ca4f8e161052c22f26f44d55d62f3d5ce49e20",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise advisory.\n- **Review signals:** `third-party-api (1; L345)`, `legal-or-compliance (6; L33, L58)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `87d5cf584da9` → `30940a6d2128` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "managed-hr-ops": {
+      "reviewed_sha256": "e88983efdd752c153f54ca6555ce070bc1328422e8bdbbc1e29357476354bd36",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise advisory.\n- **Review signals:** `absolute-percent-benchmark (2; L206, L207)`, `third-party-api (1; L323)`, `legal-or-compliance (18; L28, L28)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `3807b7cef3ae` → `e88983efdd75` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "manufacturing-consulting": {
+      "reviewed_sha256": "2ac8638e124b9da56a0191a073ec265ed88e3bebe44a0d43d19a383e787290ce",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise advisory.\n- **Review signals:** `absolute-percent-benchmark (4; L353, L361)`, `third-party-api (1; L508)`, `legal-or-compliance (1; L375)`, `live-data (4; L90, L303)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `b416a73211a8` → `2ac8638e124b` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "market-entry-strategy": {
+      "reviewed_sha256": "05616376883728b1fef5e47c3f74e9e73d84f304fd43a74ca99b159f190395e6",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Sector / financial analysis.\n- **Review signals:** `third-party-api (1; L116)`, `financial-assumptions (4; L40, L66)`, `legal-or-compliance (7; L34, L60)`\n- **Edits:** Reviewed expected issue; phrase not present, left original unchanged.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `a44f6b2ce524` → `056163768837` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "market-sizing": {
+      "reviewed_sha256": "4b5cb59d21de74994d6c21e78654dff029b9c5beba85cc188f44baeaa2a48d29",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Sector / financial analysis.\n- **Review signals:** `absolute-percent-benchmark (1; L23)`, `third-party-api (1; L118)`, `financial-assumptions (1; L82)`, `live-data (1; L56)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `2d8f87f6f35f` → `4b5cb59d21de` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "marketing-operations": {
+      "reviewed_sha256": "badecd9def38610a9b9c26a8a03ac83563b67b8cb99d2e7744250108de05ae1e",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise advisory.\n- **Review signals:** `absolute-percent-benchmark (1; L384)`, `credential-security (1; L129)`, `third-party-api (4; L129, L143)`, `legal-or-compliance (19; L53, L136)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `1723c0ac2006` → `badecd9def38` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "portfolio-optimization": {
+      "reviewed_sha256": "4989d2d8f67da3c831303263ce71c925dac457dddc23e2818a45f8e918cf2812",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `third-party-api (1; L107)`, `financial-assumptions (7; L40, L40)`, `legal-or-compliance (1; L57)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `30ac4eed2977` → `4989d2d8f67d` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "process-improvement": {
+      "reviewed_sha256": "483a87d574ad4cc41f2eb3c751e1e2f7a2a358026bb055a2abd2516c33681413",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `third-party-api (2; L123, L144)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `15fc5f002b0d` → `483a87d574ad` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "process-redesign": {
+      "reviewed_sha256": "efd65fb33edf93d552fa56e8399d85af321abdfc9524cecef352330d243c3927",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `absolute-percent-benchmark (1; L224)`, `third-party-api (3; L247, L298)`, `legal-or-compliance (6; L297, L365)`, `live-data (1; L382)`\n- **Edits:** Reviewed expected issue; phrase not present, left original unchanged.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `ec2e6f4d400c` → `efd65fb33edf` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "procurement-consulting": {
+      "reviewed_sha256": "79bc030a281ffef7f566325f2981393c770c5bad147719dd6be2414da0911e5b",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `absolute-percent-benchmark (1; L437)`, `third-party-api (1; L465)`, `legal-or-compliance (4; L301, L339)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `f536f0d23040` → `79bc030a281f` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "procurement-operations": {
+      "reviewed_sha256": "443a9c21bb1c84846392f6509e3d0b10b0171687905cb297adda2763632177d4",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `absolute-percent-benchmark (3; L92, L93)`, `third-party-api (2; L242, L471)`, `legal-or-compliance (31; L14, L32)`, `live-data (2; L210, L216)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `48d44624fc6a` → `443a9c21bb1c` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "procurement-strategy": {
+      "reviewed_sha256": "7b779c8d447f12b0c9f4ddd09318d64bf0cfe7e9f68fcdf5d3e17c30c3e13398",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L78)`, `legal-or-compliance (1; L67)`, `live-data (1; L29)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `574f6ddf7015` → `7b779c8d447f` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "retail-consumer-consulting": {
+      "reviewed_sha256": "649cfea06cb0f24a0dcfee2c571cbe7d2dba23a115a8349f177605843a4e6489",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Sector / financial analysis.\n- **Review signals:** `absolute-percent-benchmark (3; L198, L225)`, `third-party-api (1; L311)`, `financial-assumptions (2; L106, L278)`, `legal-or-compliance (2; L313, L315)`, `live-data (2; L60, L232)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `f8570f0995d4` → `649cfea06cb0` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "salesforce-consulting": {
+      "reviewed_sha256": "5c5adb7862fe297a744771dd98b7ed72ce67c14e63e73f224a04b0cef89aec0b",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `third-party-api (11; L45, L189)`, `legal-or-compliance (2; L76, L154)`, `live-data (4; L47, L105)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `0d513470eb8d` → `5c5adb7862fe` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "scenario-planning-strategy": {
+      "reviewed_sha256": "d692099a658adb5056881b46c9f1dc636d5522fefddd4a27f9497540a877c048",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `third-party-api (1; L105)`, `legal-or-compliance (2; L43, L84)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `53a1e9df5b1e` → `d692099a658a` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "security-operations-managed": {
+      "reviewed_sha256": "85c3a311e8899b45b222c5d765868ca26371d0ff940d1353053d6d6197a4db60",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise technology.\n- **Review signals:** `absolute-percent-benchmark (1; L282)`, `third-party-api (4; L145, L309)`, `legal-or-compliance (8; L63, L137)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `effc6594610f` → `85c3a311e889` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "service-delivery": {
+      "reviewed_sha256": "93fe32a5bbe2f1361d7a4c62cb6f91add65fa814c15b886e541cd7adddb2c474",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `absolute-percent-benchmark (5; L273, L274)`, `third-party-api (1; L553)`, `legal-or-compliance (3; L464, L527)`, `live-data (2; L485, L491)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `82b329a2c2d6` → `93fe32a5bbe2` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "service-level-mgmt": {
+      "reviewed_sha256": "6c126bbc7dd11af13e3a4373b3497ff202e07eecc24dba76bff7ee888767fc55",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `absolute-percent-benchmark (6; L246, L247)`, `third-party-api (1; L635)`, `legal-or-compliance (9; L42, L201)`, `live-data (2; L282, L342)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `377c2e700227` → `6c126bbc7dd1` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "shared-services": {
+      "reviewed_sha256": "8717be4343600616f11942e4027914f3771fe8557e2665daa25b15b967ee0ff9",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `third-party-api (1; L546)`, `financial-assumptions (1; L55)`, `legal-or-compliance (2; L59, L477)`, `live-data (1; L382)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `6f8cbf9bc127` → `8717be434360` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "strategic-partnerships": {
+      "reviewed_sha256": "ce08660fc6239cf8eb8eb42e48cce8fe2a207935975b40a6efed74ef1085a20d",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Enterprise advisory.\n- **Review signals:** `third-party-api (2; L22, L108)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `8d99f6edf416` → `ce08660fc623` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "supplier-management": {
+      "reviewed_sha256": "364b46f7ad8400595ead522d46146f7f3775d7fe2faf7c5203f1e93c1105d740",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L72)`, `legal-or-compliance (2; L31, L67)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `5c0100e890b5` → `364b46f7ad84` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "supply-chain-analytics": {
+      "reviewed_sha256": "3298ed5656ee0f7a9f2f7eb8098a19e1cb6024744026966edec8aa5fd432ee39",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L78)`, `live-data (1; L49)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `a5ce87117345` → `3298ed5656ee` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "supply-chain-risk": {
+      "reviewed_sha256": "8b8286643fb5d30eec579103e059fc78d80e9ae0f4fc11cab309be882c18666b",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L77)`, `live-data (1; L31)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `e1887f24721f` → `8b8286643fb5` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "sustainable-supply-chain": {
+      "reviewed_sha256": "0fda31cbe13e3c55cdc614959e7cc4c48e8677018574d4bde102b0b230930549",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L72)`, `legal-or-compliance (3; L14, L24)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `cb84a4e3234a` → `0fda31cbe13e` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "warehouse-operations": {
+      "reviewed_sha256": "1430b0eafc301a064c7a4037a37ad2e34742bfa7d5dc45b28a26cf79518a1fed",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Supply chain and inventory.\n- **Review signals:** `third-party-api (1; L74)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `8902ac39faac` → `1430b0eafc30` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "workforce-productivity": {
+      "reviewed_sha256": "169cef18ebb46e005f5a7493fc47be7f38ddb8291e8eb0b8b6568b434971ac5c",
+      "review_type": "historical_static_review",
+      "summary": "- **Focus:** Operations and strategy.\n- **Review signals:** `absolute-percent-benchmark (2; L596, L596)`, `third-party-api (1; L602)`, `legal-or-compliance (6; L68, L68)`, `live-data (2; L240, L328)`\n- **Edits:** Retained original content; no structural correction necessary.\n- **Remaining check:** confirm versioned third-party integrations, numeric claims and subject-specific assumptions against current primary sources before production use. No live integration was executed.\n- **Change verification:** `77447f9e27c4` → `169cef18ebb4` (SHA-256 prefixes).",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    }
+  }
+}

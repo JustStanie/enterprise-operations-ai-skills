@@ -649,3 +649,10 @@ Great customer operations requires treating agents as strategic assets rather th
 - Establish the process boundary, demand volume, measurement baseline and constraints before claiming efficiency gains.
 - Make quality, safety, capacity, labor, variability and customer-impact tradeoffs explicit.
 - Pilot proposed improvements and compare before/after results; do not invent benefits or treat targets as validated forecasts.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Operations and strategy):** Define baseline, owner, metric, counterfactual, adoption constraints and measurement period.
+- **Independent validation:** Treat improvement targets as hypotheses until validated by actual operating data.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

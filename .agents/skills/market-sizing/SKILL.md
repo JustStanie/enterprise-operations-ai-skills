@@ -120,3 +120,10 @@ Start with customer pain and work forward:
 - Identify the decision-maker, the decision horizon and the counterfactual or status quo.
 - Use sourced market and competitor evidence; label market size, growth and share estimates as assumptions until verified.
 - Where numbers are available, show a sensitivity range for revenue, cost, implementation timing and downside exposure.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Sector / financial analysis):** Identify applicable jurisdiction, source dates, sector-specific standards and assumptions.
+- **Independent validation:** Use verifiable baselines and sensitivity ranges rather than universal operational benchmarks.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.

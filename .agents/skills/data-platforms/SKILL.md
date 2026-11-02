@@ -421,3 +421,10 @@ process and a clear escalation path.
 - Confirm platform, vendor edition, deployment model and API/documentation version before naming commands or features.
 - State integration dependencies, ownership, recovery requirements and data-governance/security boundaries.
 - Distinguish conceptual patterns from validated production designs; require tests and operational readiness before cutover.
+
+## Review & Production Validation (2026-10-31)
+
+- **Domain control (Enterprise technology):** Verify platform and API versions, permissions, privacy controls, migration rollback and recovery objectives.
+- **Independent validation:** Use staged acceptance testing, observability and explicit change approval before production rollout.
+- **Time-sensitive details:** Treat fixed rates, thresholds, package versions, protocols and jurisdiction-specific rules in the examples above as illustrative unless reconfirmed against primary documentation.
+- **Before relying on the result:** State inputs and assumptions; verify calculations and edge cases, and identify what has not been executed or tested.
